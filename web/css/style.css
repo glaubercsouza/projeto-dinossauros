@@ -1,0 +1,11 @@
+.header {
+  background-color: #7202e6;
+}
+
+.header_menu {
+  text-align: right;
+  display: inline-flex;
+  font-family: 'Courier New', Courier, monospace;
+  color: #B6F830;
+  
+}
