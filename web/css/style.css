@@ -54,22 +54,23 @@ p {
   background-color: #7202e6;
   position: fixed;
   top: 0;  
+  z-index: 10;
 }
 
 .logo {
-  
   position: absolute;
+  width: auto;
 }
 
 .header_menu {
   text-align: right;
-  position: relative;
+  position: absolute;
+  margin-top: 88px;
 }
 
 .header_menu ul li {
   display: inline-block;
   margin-left: 15px;
-  margin-top: 90px;
 }
 
 .header_menu ul li a {
@@ -78,6 +79,7 @@ p {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #B6F830;
+  
 }
 
 .header_menu ul li a:hover {
