@@ -1,11 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+/* Estilos Gerais */
+
+body {
+  font-family: 'Comic Neue', cursive;
+}
+
+.btn {
+  border: 4px #B6F830 solid;
+  padding: 9px 30px;
+  color: #B6F830;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+}
+
+.btn:hover {
+  border: #fff solid;
+  color: #fff;
+}
+
+.btn-roxo {
+  color: #2C1243;
+  border: 4px #2C1243 solid;
+}
+
+.btn-roxo:hover {
+  color: #B6F830;
+  border: 4px #B6F830 solid;
+}
+
+h2 {
+  color: #2C1243;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+p {
+  color: #2C1243;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* Header */
+
 .header {
+  width: 100%;
+  height: 110px;
   background-color: #7202e6;
+  position: fixed;
+  top: 0;  
+}
+
+.logo {
+  
+  position: absolute;
 }
 
 .header_menu {
   text-align: right;
-  display: inline-flex;
-  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 90px;
+}
+
+.header_menu ul li a {
+  font-weight: bolder;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
   color: #B6F830;
-  
+}
+
+.header_menu ul li a:hover {
+  color: #2C1243;
+}
+
+/* Background */
+
+.intro {
+  width: 100%;
+  height: 400px;
+  margin-top: 110px;
+  background: url("../img/bg-intro.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.intro h1 {
+  color: #B6F830;
+  font-weight: bolder;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 46px;
+  line-height: 20px;
+  padding-top: 150px;
+}
+
+.intro p {
+  color: #B6F830;
+  font-weight: bolder;
+  letter-spacing: 0.05em;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 20px 0px 78px ;
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.intro .btn {
+  margin-top: 2000px;
+}
+
+/* Surgiram */
+
+.intro-surg {
+  text-align: center;
+}
+
+.intro-surg h2 {
+  margin: 40px;
+}
+
+.intro-surg p {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.intro-surg img {
+  margin-right: 50px;
+  margin-bottom: 5px;
+}
+
+.intro-surg .intro-bottom {
+  margin-bottom: 40px;
 }
