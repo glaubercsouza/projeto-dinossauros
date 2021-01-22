@@ -49,7 +49,7 @@ h2 {
   line-height: 36px;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 40px;
+  margin: 40px 0 40px 0;
 }
 
 p {
@@ -161,7 +161,7 @@ p {
   background-color: #B6F830;
   margin-top: 40px;
   text-align: center;
-  padding: 40px 0;
+  padding-bottom: 40px;
 }
 
 .intro-aliment img {
@@ -172,4 +172,92 @@ p {
 .intro-aliment p {
   text-align: left;
   margin-bottom: 40px;
+}
+
+/* Grupos */
+
+.grupos ul {
+  list-style: square;
+  list-style-position: inside;
+  color: #2C1243;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: left;
+}
+
+.grupos img {
+  display: block;
+  float: right;
+  padding-bottom: 40px;
+}
+
+.grupos {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Extinção */
+
+.extincao {
+  background-color: #B6F830;
+  margin-top: 40px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.extincao img {
+  margin-bottom: 40px;
+}
+
+.extincao p {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #2C1243;
+  padding-bottom: 40px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 36px;
+  text-align: left;
+  margin: 40px 0 10px 0;
+  color: #B6F830;
+}
+
+.footer h2 {
+  color: #B6F830;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.footer p {
+  color: #B6F830;
+  font-size: 16px;
+}
+
+.redes h2 {
+  margin-top: 40px;
+  text-indent: 22px;
+}
+
+.redes img {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.copy {
+  background-color: #7202e6;
+  padding: 10px;
+}
+
+.copy p {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #B6F830;
 }
