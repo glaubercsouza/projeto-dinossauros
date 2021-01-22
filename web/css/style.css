@@ -32,12 +32,24 @@ body {
   border: 4px #B6F830 solid;
 }
 
+.btn-branco {
+  color: #2C1243;
+  border: 4px #2C1243 solid;
+}
+
+.btn-branco:hover {
+  color: #fff;
+  border: 4px #fff solid;
+}
+
 h2 {
   color: #2C1243;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: bolder;
   line-height: 36px;
   text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 p {
@@ -119,10 +131,6 @@ p {
   margin: 0 auto;
 }
 
-.intro .btn {
-  margin-top: 2000px;
-}
-
 /* Surgiram */
 
 .intro-surg {
@@ -144,5 +152,24 @@ p {
 }
 
 .intro-surg .intro-bottom {
+  margin-bottom: 40px;
+}
+
+/* Alimentavam */
+
+.intro-aliment {
+  background-color: #B6F830;
+  margin-top: 40px;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.intro-aliment img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.intro-aliment p {
+  text-align: left;
   margin-bottom: 40px;
 }
