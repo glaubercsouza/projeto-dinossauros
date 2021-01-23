@@ -49,7 +49,7 @@ h2 {
   line-height: 36px;
   text-transform: uppercase;
   text-align: center;
-  margin: 40px 0 40px 0;
+  margin: 30px 0;
 }
 
 p {
@@ -57,6 +57,11 @@ p {
   font-size: 20px;
   line-height: 30px;
 }
+
+.call {
+  margin: 40px 0;
+  text-align: center;
+ }
 
 /* Header */
 
@@ -72,17 +77,24 @@ p {
 .logo {
   position: absolute;
   width: auto;
+  margin: 0 auto;
+  z-index: 9;
 }
 
 .header_menu {
   text-align: right;
   position: absolute;
   margin-top: 88px;
+  display: inline-block;
+}
+
+.header_menu ul {
+  padding-left: 20px;
 }
 
 .header_menu ul li {
   display: inline-block;
-  margin-left: 15px;
+  padding-left: 15px;
 }
 
 .header_menu ul li a {
@@ -91,7 +103,6 @@ p {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #B6F830;
-  
 }
 
 .header_menu ul li a:hover {
@@ -143,38 +154,26 @@ p {
 
 .intro-surg p {
   text-align: left;
-  padding-left: 10px;
 }
 
-.intro-surg img {
-  margin-right: 50px;
-  margin-bottom: 5px;
-}
-
-.intro-surg .intro-bottom {
-  margin-bottom: 40px;
-}
 
 /* Alimentavam */
 
 .intro-aliment {
   background-color: #B6F830;
-  margin-top: 40px;
   text-align: center;
-  padding-bottom: 40px;
-}
-
-.intro-aliment img {
-  width: 100%;
-  margin-bottom: 40px;
 }
 
 .intro-aliment p {
+  margin-top: 40px;
   text-align: left;
-  margin-bottom: 40px;
 }
 
 /* Grupos */
+
+.grupos {
+  text-align: center;
+}
 
 .grupos ul {
   list-style: square;
@@ -185,33 +184,16 @@ p {
   text-align: left;
 }
 
-.grupos img {
-  display: block;
-  float: right;
-  padding-bottom: 40px;
-}
-
-.grupos {
-  text-align: center;
-  margin-top: 20px;
-}
-
 /* Extinção */
 
 .extincao {
   background-color: #B6F830;
-  margin-top: 40px;
   text-align: center;
-  padding-bottom: 40px;
-}
-
-.extincao img {
-  margin-bottom: 40px;
 }
 
 .extincao p {
+  margin-top: 40px;
   text-align: left;
-  margin-bottom: 40px;
 }
 
 /* Footer */
