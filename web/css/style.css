@@ -156,7 +156,6 @@ p {
   text-align: left;
 }
 
-
 /* Alimentavam */
 
 .intro-aliment {
@@ -215,7 +214,7 @@ h3 {
 .footer h2 {
   color: #B6F830;
   text-align: left;
-  margin: 10px 0;
+  margin: 8px 0;
 }
 
 .footer p {
@@ -223,13 +222,17 @@ h3 {
   font-size: 16px;
 }
 
+.redes {
+  text-align: right;
+}
 .redes h2 {
-  margin-top: 40px;
-  text-indent: 22px;
+  margin: 40px 0 10px 0;
+  text-indent: 92px;
 }
 
-.redes img {
+.redes ul li{
   display: inline-block;
+  text-align: right;
   margin-left: 20px;
 }
 
