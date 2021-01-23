@@ -6,6 +6,16 @@ body {
   font-family: 'Comic Neue', cursive;
 }
 
+h1 {
+  color: #B6F830;
+  font-weight: bolder;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 46px;
+  line-height: 20px;
+  padding-top: 150px;
+}
+
 .btn {
   border: 4px #B6F830 solid;
   padding: 9px 30px;
@@ -15,6 +25,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.05em;
+  border-radius: 0.5em;
 }
 
 .btn:hover {
@@ -63,6 +74,11 @@ p {
   text-align: center;
  }
 
+
+ img {
+   border-radius: 0.5em;
+ }
+
 /* Header */
 
 .header {
@@ -109,7 +125,7 @@ p {
   color: #2C1243;
 }
 
-/* Background */
+/* Intro Background */
 
 .intro {
   width: 100%;
@@ -120,15 +136,7 @@ p {
   text-align: center;
 }
 
-.intro h1 {
-  color: #B6F830;
-  font-weight: bolder;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  font-size: 46px;
-  line-height: 20px;
-  padding-top: 150px;
-}
+
 
 .intro p {
   color: #B6F830;
@@ -142,7 +150,7 @@ p {
   margin: 0 auto;
 }
 
-/* Surgiram */
+/* Intro Surgiram */
 
 .intro-surg {
   text-align: center;
@@ -156,7 +164,7 @@ p {
   text-align: left;
 }
 
-/* Alimentavam */
+/* Intro Alimentavam */
 
 .intro-aliment {
   background-color: #B6F830;
@@ -168,13 +176,13 @@ p {
   text-align: left;
 }
 
-/* Grupos */
+/* Intro Grupos */
 
-.grupos {
+.intro-grupos {
   text-align: center;
 }
 
-.grupos ul {
+.intro-grupos ul {
   list-style: square;
   list-style-position: inside;
   color: #2C1243;
@@ -183,14 +191,14 @@ p {
   text-align: left;
 }
 
-/* Extinção */
+/* Intro Extinção */
 
-.extincao {
+.intro-extincao {
   background-color: #B6F830;
   text-align: center;
 }
 
-.extincao p {
+.intro-extincao p {
   margin-top: 40px;
   text-align: left;
 }
