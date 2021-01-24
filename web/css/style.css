@@ -80,6 +80,8 @@ p {
    border-radius: 0.5em;
  }
 
+ 
+
 /* Header */
 
 .header {
@@ -132,6 +134,10 @@ p {
   margin-top: 110px;
   background-image: url('../img/bg-intro.jpg');
   text-align: center;
+}
+
+.header_menu ul li a.menu_ativo {
+  color: #2C1243;
 }
 
 /* Intro Background */
