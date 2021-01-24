@@ -61,6 +61,7 @@ h2 {
   text-transform: uppercase;
   text-align: center;
   margin: 40px 0;
+  letter-spacing: 0.05em;
 }
 
 p {
@@ -170,6 +171,7 @@ p {
 
 .intro-surg p {
   text-align: left;
+  text-indent: 3em;
 }
 
 /* Intro Alimentavam */
@@ -182,6 +184,7 @@ p {
 .intro-aliment p {
   margin-top: 40px;
   text-align: left;
+  text-indent: 3em;
 }
 
 /* Intro Grupos */
@@ -209,6 +212,7 @@ p {
 .intro-extincao p {
   margin-top: 40px;
   text-align: left;
+  text-indent: 3em;
 }
 
 /* Footer */
