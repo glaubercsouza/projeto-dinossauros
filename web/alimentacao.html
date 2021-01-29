@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/alimentacao.css">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -30,15 +31,15 @@
 
   <section class="intro-2">
     <div class="container">
-      <h1>Alimentação</h1>
+      <h1 class="fadeInDown" data-anime="400">Alimentação</h1>
     </div>
   </section>
 
   <section class="carnivoros">
     <div class="container">
-      <h2 class="grid-16">Carnívoros</h1>
-        <img src="img/aliment-carn.png" alt="Carnívoros" class="grid-8">
-        <div class="grid-8 aliment-text">
+      <h2 class="grid-16 fadeInDown" data-anime="800">Carnívoros</h1>
+        <img src="img/aliment-carn.png" alt="Carnívoros" class="grid-8 fadeInLeft" data-anime="1200">
+        <div class="grid-8 aliment-text fadeInRight" data-anime="1200">
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae numquam sit inventore aliquam fugiat facere, consectetur sequi, reprehenderit distinctio ipsum similique itaque quas. Sint adipisci tempore suscipit, placeat maxime consectetur?</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, eaque minus, reiciendis, dicta molestias et nostrum dolorum explicabo tenetur sunt officia similique nemo. Dicta, optio laudantium nam suscipit odit ipsum.</p>
         </div>
@@ -47,12 +48,12 @@
 
   <section class="herbivoros">
     <div class="container">
-      <h2 class="grid-16">Herbívoros</h1>
-        <div class="grid-8 herb-text">
+      <h2 class="grid-16 fadeInDown" data-anime="1600">Herbívoros</h1>
+        <div class="grid-8 herb-text fadeInLeft" data-anime="2000">
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae numquam sit inventore aliquam fugiat facere, consectetur sequi, reprehenderit distinctio ipsum similique itaque quas. Sint adipisci tempore suscipit, placeat maxime consectetur?</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, eaque minus, reiciendis, dicta molestias et nostrum dolorum explicabo tenetur sunt officia similique nemo. Dicta, optio laudantium nam suscipit odit ipsum.</p>
         </div>
-        <img src="img/aliment-herb.png" alt="Carnívoros" class="grid-8">
+        <img src="img/aliment-herb.png" alt="Carnívoros" class="grid-8 fadeInRight" data-anime="2000">
     </div>
   </section>
 
@@ -95,6 +96,10 @@
       </div>
     </div>
   </footer>
+  <!-- Javascript -->
+  <script src="js/simple-anime.js"></script>
+  <script src="js/script.js"></script>
+  <!-- Javascript -->
 </body>
 
 </html>

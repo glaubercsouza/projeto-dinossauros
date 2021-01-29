@@ -1,11 +1,13 @@
-new SimpleSlide({
-  slide: 'extincao',
-  nav: true, 
-  auto: false, 
-  time: 500000, 
-  pauseOnHover: true, 
-});
+if (window.SimpleSlide) {
+  new SimpleSlide({
+    slide: 'extincao',
+    nav: true, 
+    auto: false, 
+    time: 500000, 
+    pauseOnHover: true, 
+  });
+}
 
-new SimpleAnime();
-
-
+if (window.SimpleAnime) {
+	new SimpleAnime();
+}
