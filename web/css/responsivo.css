@@ -1,0 +1,91 @@
+/* Tablets */
+
+@media only screen and (min-width: 798px) and (max-width: 989px) {
+
+	.intro-grupos ul li{
+		font-size: 28px;
+	}
+
+	.footer ul li {
+		width: 50px;
+	}
+
+	.redes h2 {
+		margin: 40px 0 10px 0;
+		padding-left: 50px;
+	}
+
+	.reavaliação{
+		margin-bottom: 20px;
+	}
+
+	.aliment-text p, .herb-text  p {
+		font-size: 16px;
+	}
+
+	.aliment-text, .herb-text {
+		height: 349px;
+	}
+
+}
+
+/* Smartphone */
+
+@media only screen and (max-width: 797px) {
+	h2 {
+		margin: 20px 0;
+		padding: 0;
+	}
+
+	img {
+		margin: 20px 0;
+		padding: 0;
+	}
+
+	.header {
+		position: relative;
+	}
+
+	.header img {
+		margin: 0 auto 10;
+	}
+
+	.logo {
+		max-width: 100%;
+		position: absolute;
+		display: block;
+	}
+
+	.header_menu {
+		position: relative;
+		margin: 0;
+	}
+
+	.intro-grupos ul li{
+		font-size: 24px;
+	}
+	
+	.redes ul li {
+		width: 50px;
+		text-align: left;
+		margin: 0 20px 0 0;
+		padding: 0;
+	}
+
+	.redes ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	.redes h2{
+		padding: 0;
+	}
+
+	.intro-extincao ul li{
+		display: none;
+	}
+
+	.intro-extincao ul li:nth-child(1){
+		display: inline-block;
+	}
+}

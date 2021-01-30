@@ -1,6 +1,10 @@
 /* Surgimento */
 
-.reavaliacao {
+.reavaliacao, .evolucao{
+  padding-bottom: 40px;
+}
+
+.reavaliacao{
   background-color: #B6F830;
 }
 

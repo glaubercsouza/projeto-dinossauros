@@ -254,7 +254,7 @@ h3 {
 }
 .redes h2 {
   margin: 40px 0 10px 0;
-  text-indent: 92px;
+  padding-left: 92px;
 }
 
 .redes ul li{
