@@ -81,8 +81,6 @@ p {
    width: 100%;
  }
 
- 
-
 /* Header */
 
 .header {
@@ -139,6 +137,7 @@ p {
 
 .header_menu ul li a.menu_ativo {
   color: #2C1243;
+  border-color: #2C1243;
 }
 
 /* Intro Background */
