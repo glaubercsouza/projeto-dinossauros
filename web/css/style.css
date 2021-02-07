@@ -68,6 +68,7 @@ p {
   color: #2C1243;
   font-size: 20px;
   line-height: 30px;
+  text-indent: 3em;
 }
 
 .call {
@@ -177,7 +178,6 @@ p {
 
 .intro-surg p {
   text-align: left;
-  text-indent: 3em;
 }
 
 /* Intro Alimentavam */
@@ -218,7 +218,6 @@ p {
 .intro-extincao p {
   margin-top: 40px;
   text-align: left;
-  text-indent: 3em;
 }
 
 /* Footer */
@@ -246,6 +245,7 @@ h3 {
 .footer p {
   color: #B6F830;
   font-size: 16px;
+  text-indent: 0em;
 }
 
 .redes {
@@ -271,6 +271,7 @@ h3 {
   font-size: 12px;
   text-transform: uppercase;
   color: #B6F830;
+  text-indent: 0;
 }
 
 /* Javascript */
