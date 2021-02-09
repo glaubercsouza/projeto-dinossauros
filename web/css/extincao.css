@@ -1,4 +1,5 @@
-.ext1 img, .ext2 img {
+.ext1 img,
+.ext2 img {
   margin-bottom: 40px;
 }
 
@@ -8,6 +9,6 @@
 
 .ext2 {
   margin-top: 40px;
-  background-color: #B6F830;
+  background-color: #b6f830;
   padding-bottom: 40px;
 }
