@@ -32,6 +32,10 @@
 /* Smartphone */
 
 @media only screen and (max-width: 797px) {
+  .intro, .intro-2 {
+    background-image: url("../img/bg-mobile.jpg");
+  }
+  
   img {
     text-align: center;
   }

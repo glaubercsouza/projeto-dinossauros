@@ -26,10 +26,11 @@ h1 {
   line-height: 24px;
   letter-spacing: 0.05em;
   border-radius: 0.5em;
+  transition: 0.3s;
 }
 
 .btn:hover {
-  border: #fff solid;
+  border: 4px #fff solid;
   color: #fff;
 }
 
@@ -121,6 +122,7 @@ img {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #b6f830;
+  transition: 0.5s;
 }
 
 .header_menu ul li a:hover {
@@ -159,8 +161,8 @@ img {
   line-height: 30px;
   padding: 20px 0px 78px;
   max-width: 400px;
-  text-align: center;
   margin: 0 auto;
+  text-indent: 0;
 }
 
 /* Intro Surgiram */
