@@ -96,7 +96,7 @@ img {
 .logo {
   position: absolute;
   width: auto;
-  margin: 0 auto;
+  margin: 0 10px;
   z-index: 9;
 }
 
