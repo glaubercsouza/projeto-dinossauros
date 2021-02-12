@@ -1,0 +1,1055 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+
+/* Reset */
+
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+
+/**
+ * Remove anchor tex-decoration
+ */ 
+
+ a {
+	text-decoration: none;
+}
+
+/**
+ * Remove list-style
+ */ 
+
+ol, ul {
+	list-style: none;
+}
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul {
+	font-size: 1em;
+	font-weight: normal;
+}
+
+/* Grid */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0px;
+	position: relative;
+}
+
+.container:after, .container:before {
+	content: " ";
+	display: table;
+}
+
+.container:after {
+	clear: both;
+}
+
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-1-3 {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.grid-1 	{width: 40px;}
+.grid-2 	{width: 100px;}
+.grid-3 	{width: 160px;}
+.grid-4 	{width: 220px;}
+.grid-5 	{width: 280px;}
+.grid-6 	{width: 340px;}
+.grid-7 	{width: 400px;}
+.grid-8 	{width: 460px;}
+.grid-9 	{width: 520px;}
+.grid-10 	{width: 580px;}
+.grid-11 	{width: 640px;}
+.grid-12 	{width: 700px;}
+.grid-13 	{width: 760px;}
+.grid-14 	{width: 820px;}
+.grid-15 	{width: 880px;}
+.grid-16 	{width: 940px;}
+.grid-1-3	{width: 300px;}
+
+@media only screen and (min-width: 798px) and (max-width: 989px) {
+
+	.container {
+		width: 768px;
+	}
+
+	.grid-1 	{width: 28px;}
+.grid-2 	{width: 76px;}
+.grid-3 	{width: 124px;}
+.grid-4 	{width: 172px;}
+.grid-5 	{width: 220px;}
+.grid-6 	{width: 268px;}
+.grid-7 	{width: 316px;}
+.grid-8 	{width: 364px;}
+.grid-9 	{width: 412px;}
+.grid-10 	{width: 460px;}
+.grid-11 	{width: 508px;}
+.grid-12 	{width: 556px;}
+.grid-13 	{width: 604px;}
+.grid-14 	{width: 652px;}
+.grid-15 	{width: 700px;}
+.grid-16 	{width: 748px;}
+.grid-1-3	{width: 236px;}
+}
+
+@media only screen and (max-width: 797px) {
+
+	.container {
+		width: 300px;
+	}
+
+	.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-1-3 {
+		width: 300px;
+		margin-bottom: 20px;
+		float: none;
+	}
+
+}
+
+/* Style */
+
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap");
+
+/* Estilos Gerais */
+
+body {
+  font-family: "Comic Neue", cursive;
+}
+
+h1 {
+  color: #b6f830;
+  font-weight: bolder;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 46px;
+  line-height: 20px;
+  padding-top: 150px;
+}
+
+.btn {
+  border: 4px #b6f830 solid;
+  padding: 9px 30px;
+  color: #b6f830;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  border-radius: 0.5em;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  border: 4px #fff solid;
+  color: #fff;
+}
+
+.btn-roxo {
+  color: #2c1243;
+  border: 4px #2c1243 solid;
+}
+
+.btn-roxo:hover {
+  color: #b6f830;
+  border: 4px #b6f830 solid;
+}
+
+.btn-branco {
+  color: #2c1243;
+  border: 4px #2c1243 solid;
+}
+
+.btn-branco:hover {
+  color: #fff;
+  border: 4px #fff solid;
+}
+
+h2 {
+  color: #2c1243;
+  font-size: 24px;
+  font-weight: bolder;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 40px 0;
+  letter-spacing: 0.05em;
+}
+
+p {
+  color: #2c1243;
+  font-size: 20px;
+  line-height: 30px;
+  text-indent: 3em;
+}
+
+.call {
+  margin: 40px 0;
+  text-align: center;
+}
+
+img {
+  border-radius: 0.5em;
+  width: 100%;
+}
+
+/* Header */
+
+.header {
+  width: 100%;
+  height: 110px;
+  background-color: #7202e6;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  position: absolute;
+  width: auto;
+  margin: 0 10px;
+  z-index: 9;
+}
+
+.header_menu {
+  text-align: right;
+  position: absolute;
+  margin-top: 88px;
+  display: inline-block;
+}
+
+.header_menu ul {
+  padding-left: 20px;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+.header_menu ul li a {
+  font-weight: bolder;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #b6f830;
+  transition: 0.5s;
+}
+
+.header_menu ul li a:hover {
+  color: #2c1243;
+}
+
+.intro-2 {
+  width: 100%;
+  height: 260px;
+  margin-top: 110px;
+  background-image: url("../img/bg-intro.jpg");
+  text-align: center;
+}
+
+.header_menu ul li a.menu_ativo {
+  color: #2c1243;
+  border-color: #2c1243;
+}
+
+/* Intro Background */
+
+.intro {
+  width: 100%;
+  height: 400px;
+  margin-top: 110px;
+  background: url("../img/bg-intro.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.intro p {
+  color: #b6f830;
+  font-weight: bolder;
+  letter-spacing: 0.05em;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 20px 0px 78px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-indent: 0;
+}
+
+/* Intro Surgiram */
+
+.intro-surg {
+  text-align: center;
+}
+
+.intro-surg h2 {
+  margin: 40px;
+}
+
+.intro-surg p {
+  text-align: left;
+}
+
+/* Intro Alimentavam */
+
+.intro-aliment {
+  background-color: #b6f830;
+  text-align: center;
+}
+
+.intro-aliment p {
+  margin-top: 40px;
+  text-align: left;
+  text-indent: 3em;
+}
+
+/* Intro Grupos */
+
+.intro-grupos {
+  text-align: center;
+}
+
+.intro-grupos ul {
+  list-style: square;
+  list-style-position: inside;
+  color: #2c1243;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: left;
+}
+
+/* Intro Extinção */
+
+.intro-extincao {
+  background-color: #b6f830;
+  text-align: center;
+}
+
+.intro-extincao p {
+  margin-top: 40px;
+  text-align: left;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #2c1243;
+  padding-bottom: 40px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 36px;
+  text-align: left;
+  margin: 40px 0 10px 0;
+  color: #b6f830;
+}
+
+.footer h2 {
+  color: #b6f830;
+  text-align: left;
+  margin: 8px 0;
+}
+
+.footer p {
+  color: #b6f830;
+  font-size: 16px;
+  text-indent: 0em;
+}
+
+.redes {
+  text-align: right;
+}
+.redes h2 {
+  margin: 40px 0 10px 0;
+  padding-left: 92px;
+}
+
+.redes ul li {
+  display: inline-block;
+  text-align: right;
+  margin-left: 20px;
+}
+
+.copy {
+  background-color: #7202e6;
+  padding: 10px;
+}
+
+.copy p {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #b6f830;
+  text-indent: 0;
+}
+
+/* Javascript */
+
+.js [data-anime] {
+  opacity: 0;
+}
+
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+
+.fadeInRight {
+  transform: translate3d(20px, 0, 0);
+}
+
+.fadeInLeft {
+  transform: translate3d(-20px, 0, 0);
+}
+
+.fadeInUp {
+  transform: translate3d(0, 20px, 0);
+}
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: transform 0.8s, opacity 0.8s;
+}
+
+/* Alimentação */
+
+.carnivoros {
+  padding-bottom: 40px;
+}
+
+.aliment-text {
+  background-color: #B6F830;
+  height: 441px;
+  border-radius: 0.5em;
+  text-indent: 3em;
+  padding: 0 0.5em;
+}
+
+.herbivoros {
+  background-color: #B6F830;
+  padding-bottom: 40px;
+}
+
+.herb-text p {
+  color: #fff;
+}
+
+.herb-text {
+  text-indent: 3em;
+  background-color: #7202e6;
+  height: 441px;
+  border-radius: 0.5em;
+  padding: 0 0.5em;
+}
+
+.onivoros {
+  padding-bottom: 40px;
+}
+
+/* Extinção */
+
+.ext1 img,
+.ext2 img {
+  margin-bottom: 40px;
+}
+
+.extincao h2 {
+  margin-top: 40px;
+}
+
+.ext2 {
+  margin-top: 40px;
+  background-color: #b6f830;
+  padding-bottom: 40px;
+}
+
+/* Foram */
+
+.foram {
+  padding: 40px 0;
+  text-indent: 3em;
+}
+
+/* Grupos */
+
+.grupos{
+  padding: 40px 0;
+  text-indent: 50px;
+  overflow: unset;
+}
+
+/* Surgimento */
+
+.reavaliacao, .evolucao{
+  padding-bottom: 40px;
+}
+
+.reavaliacao{
+  background-color: #B6F830;
+}
+
+.evolucao p {
+  text-indent: 60px;
+}
+
+.reavaliacao p {
+  text-indent: 60px;
+}
+
+/* Tablets */
+
+@media only screen and (min-width: 798px) and (max-width: 989px) {
+  .intro-grupos ul li {
+    font-size: 28px;
+  }
+
+  .footer ul li {
+    width: 50px;
+  }
+
+  .redes h2 {
+    margin: 40px 0 10px 0;
+    padding-left: 50px;
+  }
+
+  .reavaliação {
+    margin-bottom: 20px;
+  }
+
+  .aliment-text p,
+  .herb-text p {
+    font-size: 16px;
+  }
+
+  .aliment-text,
+  .herb-text {
+    height: 349px;
+  }
+}
+
+/* Smartphone */
+
+@media only screen and (max-width: 797px) {
+  .intro, .intro-2 {
+    background-image: url("../img/bg-mobile.jpg");
+  }
+  
+  img {
+    text-align: center;
+  }
+
+  h2 {
+    margin: 30px auto 20px;
+    padding: 0;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  /* Index */
+
+  .header {
+    position: relative;
+    width: 100%;
+    height: 356px;
+  }
+
+  .logo {
+    max-width: 100%;
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 0 auto 10px auto;
+  }
+
+  .header_menu {
+    text-align: center;
+    margin: 0;
+  }
+
+  .header_menu ul {
+    padding: 0;
+  }
+
+  .header_menu ul li {
+    padding: 0;
+  }
+
+  .header_menu ul li a {
+    border: 4px solid #b6f830;
+    width: 170px;
+    display: block;
+    float: center;
+    margin-bottom: 10px;
+    padding: 5px 0;
+  }
+
+  .header_menu ul li a:hover {
+    border-color: #2c1243;
+  }
+
+  .intro,
+  .intro-2 {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .intro h1 {
+    padding-top: 80px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .intro p {
+    padding: 20px 0 84px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .intro-surg {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .intro-surg h2 {
+    margin: 30px auto 20px;
+  }
+
+  .intro-aliment img {
+    margin: 0;
+  }
+
+  .intro-grupos img {
+    margin: 0;
+  }
+
+  .intro-grupos ul li {
+    font-size: 24px;
+    margin: 5px;
+  }
+
+  .intro-extincao ul {
+    margin: 0;
+  }
+
+  .intro-extincao ul li {
+    display: none;
+  }
+
+  .intro-extincao ul li:nth-child(1) {
+    display: inline-block;
+  }
+
+  .footer {
+    padding-bottom: 20px;
+  }
+
+  .copy p {
+    padding-bottom: 0px;
+    font-size: 12px;
+  }
+
+  .redes {
+    padding-left: 0px;
+  }
+
+  .redes ul li {
+    width: 50px;
+    text-align: left;
+    margin: 0 20px 0 0;
+    padding: 0;
+  }
+
+  .redes ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .redes h2 {
+    padding: 0;
+    text-align: left;
+  }
+
+  /* Foram */
+
+  .intro-2 h1 {
+    padding-top: 80px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .foram {
+    text-indent: 0em;
+  }
+
+  /* Alimentação */
+
+  .aliment-text,
+  .herb-text {
+    height: 460px;
+  }
+}
