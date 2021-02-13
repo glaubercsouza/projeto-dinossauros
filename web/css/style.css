@@ -1046,7 +1046,7 @@ h3 {
     margin: 0 auto;
   }
 
-  /* Index Header*/
+  /* Header*/
 
   .header {
     position: relative;
@@ -1059,7 +1059,7 @@ h3 {
     position: relative;
     display: block;
     padding: 0;
-    margin: 0 auto;
+    margin: 10px auto;
   }
 
   .header_menu {
@@ -1102,7 +1102,7 @@ h3 {
   }
 
   .intro p {
-    padding: 20px 30px 74px;
+    padding: 30px 30px 64px;
     font-size: 14px;
     line-height: 22px;
   }
@@ -1163,18 +1163,25 @@ h3 {
     display: inline-block;
     margin: 0 auto;
   }
-
   
   /* Foram */
 
   .intro-2 h1 {
     padding-top: 80px;
-    font-size: 42px;
+    font-size: 40px;
     line-height: 46px;
   }
 
   .foram {
     text-indent: 0em;
+  }
+
+  .foram img {
+    margin: 0 auto 20px;
+  }
+
+  .foram p {
+    margin: 0 auto;
   }
 
   /* Alimentação */
