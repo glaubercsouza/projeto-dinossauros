@@ -1184,11 +1184,21 @@ h3 {
     margin: 0 auto;
   }
 
+  /* Surgiram */
+
+  .evolucao p, .reavaliacao p {
+    margin: auto;
+  }
+
   /* Alimentação */
 
   .aliment-text,
   .herb-text {
     height: 460px;
+  }
+
+  .carnivoros h2, .carnivoros img, .aliment-text, .herbivoros h2, .herb-text, .herbivoros img, .onivoros h2, .onivoros img {
+    margin: 5px auto;
   }
 
   /* Footer */
