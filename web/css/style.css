@@ -1217,10 +1217,14 @@ h3 {
 
   /* Extinção */
 
-  .ext1 h2, .ext1 img, .ext1 p, .ext2 h2, .ext2 img, .ext2 p {
+  .ext1 h2,
+  .ext1 img,
+  .ext1 p,
+  .ext2 h2,
+  .ext2 img,
+  .ext2 p {
     margin: 0 auto;
   }
-
 
   /* Footer */
 
