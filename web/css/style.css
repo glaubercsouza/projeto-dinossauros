@@ -1163,7 +1163,7 @@ h3 {
     display: inline-block;
     margin: 0 auto;
   }
-  
+
   /* Foram */
 
   .intro-2 h1 {
@@ -1186,7 +1186,8 @@ h3 {
 
   /* Surgiram */
 
-  .evolucao p, .reavaliacao p {
+  .evolucao p,
+  .reavaliacao p {
     margin: auto;
   }
 
@@ -1197,7 +1198,14 @@ h3 {
     height: 460px;
   }
 
-  .carnivoros h2, .carnivoros img, .aliment-text, .herbivoros h2, .herb-text, .herbivoros img, .onivoros h2, .onivoros img {
+  .carnivoros h2,
+  .carnivoros img,
+  .aliment-text,
+  .herbivoros h2,
+  .herb-text,
+  .herbivoros img,
+  .onivoros h2,
+  .onivoros img {
     margin: 5px auto;
   }
 
@@ -1206,6 +1214,13 @@ h3 {
   .grupos p {
     margin: 5px auto;
   }
+
+  /* Extinção */
+
+  .ext1 h2, .ext1 img, .ext1 p, .ext2 h2, .ext2 img, .ext2 p {
+    margin: 0 auto;
+  }
+
 
   /* Footer */
 
@@ -1262,5 +1277,3 @@ h3 {
     margin: 0 auto;
   }
 }
-
-
