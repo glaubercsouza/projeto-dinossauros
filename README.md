@@ -8,6 +8,8 @@
 
 <a href="https://glaubercsouza.github.io/projeto-dinossauros/" target="_blank" rel="external">Projeto</a>
 
+
+<h2>Minhas Redes Sociais</h2>
 <p><a href="https://www.linkedin.com/in/glauber-souza-30253795/" target="_blank" rel="external"><img src="https://github.com/glaubercsouza/projeto-dinossauros/blob/main/img/icon-linkedin.png" alt="linkedin" width=30 height=30/></a>
 <a href="https://www.instagram.com/glauber.csouza/" target="_blank" rel="external"><img src="https://github.com/glaubercsouza/projeto-dinossauros/blob/main/img/icon-github.png" alt="instagram" width=30 height=30/></a>
 <a href="https://www.facebook.com/glaubercsouza/" target="_blank" rel="external"><img src="https://github.com/glaubercsouza/projeto-dinossauros/blob/main/img/icon-facebook.png" alt="facebook" width=30 height=30/></a></p>
