@@ -6,7 +6,7 @@
 
 <p>Decidi falar sobre dinossauros por ser um assunto que me fascina desde sempre. Devido a isso, poderei utilizar o projeto para colocar em prática os conhecimentos em desenvolvimento web e também sobre o assunto em si, além de consequentemente aprender sobre ambos.</p>
 
-<a href="https://glaubercsouza.github.io/projeto-dinossauros/" target="_blank" rel="external">Projeto</a>
+<a href="https://glaubercsouza.github.io/projeto-dinossauros/" target="_blank" rel="external">Acesse o Projeto</a>
 
 
 <h2>Minhas Redes Sociais</h2>
