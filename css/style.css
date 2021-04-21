@@ -835,6 +835,11 @@ img {
   padding-bottom: 40px;
 }
 
+.social-media-icon:hover {
+  border: 1px solid #b6f830;
+  transition: 0.3s;
+}
+
 h3 {
   font-size: 20px;
   font-weight: bold;
