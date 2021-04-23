@@ -838,8 +838,6 @@ img {
 .social-media-icon:hover {
   border: 4px solid #b6f830;
   transition: 0.3s;
-  z-index: 5;
-  
 }
 
 h3 {
