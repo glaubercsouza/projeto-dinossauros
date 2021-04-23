@@ -836,8 +836,10 @@ img {
 }
 
 .social-media-icon:hover {
-  border: 1px solid #b6f830;
+  border: 4px solid #b6f830;
   transition: 0.3s;
+  z-index: 5;
+  
 }
 
 h3 {
@@ -864,6 +866,7 @@ h3 {
 .redes {
   text-align: right;
 }
+
 .redes h2 {
   margin: 40px 0 10px 0;
   padding-left: 92px;
@@ -871,7 +874,6 @@ h3 {
 
 .redes ul li {
   display: inline-block;
-  text-align: right;
   margin-left: 20px;
 }
 
