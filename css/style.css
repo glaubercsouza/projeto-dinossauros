@@ -835,6 +835,11 @@ img {
   padding-bottom: 40px;
 }
 
+
+.social-media-icon {
+  width: 60px;
+}
+
 .social-media-icon:hover {
   border: 4px solid #b6f830;
   transition: 0.3s;
@@ -1029,6 +1034,10 @@ h3 {
   .aliment-text,
   .herb-text {
     height: 349px;
+  }
+
+  .social-media-icon {
+    width: 50px;
   }
 }
 
@@ -1276,6 +1285,10 @@ h3 {
     margin: 0;
     padding-bottom: 10px;
     text-align: center;
+  }
+
+  .social-media-icon {
+    width: 50px;
   }
 
   /* Copy */
